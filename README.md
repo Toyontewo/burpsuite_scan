@@ -26,7 +26,7 @@ I did the following steps to set up the proxy:
 
 ## Launch Target
 
-1. I identified the target website for testing.
+1. I identified the target website for testing which was (https://testphp.vulnweb.com)
 2. I launched the target website in my browser.
 3. I observed the requests captured in Burp Suite.
 
