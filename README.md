@@ -61,13 +61,8 @@ I did the following steps to set up the proxy:
 
 ![SQL Injection](images/sql_injection.png)
 
-## Additional Notes
-
-- Include any additional notes, findings, or configurations.
-- Add more images, code snippets, or specific details as needed.
 
 ## Conclusion
 
-Summarize the key outcomes and results of the Burp Suite project.
+This project demonstrated the effectiveness of Burp Suite by locating and fixing vulnerabilities in the online application. The practical experience highlights the significance of strong security protocols, and the knowledge acquired will benefit upcoming undertakings.
 
-Feel free to customize this template based on your specific project details, and don't forget to include any important configurations, findings, or additional information.
