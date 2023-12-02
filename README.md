@@ -19,8 +19,8 @@ I did the following steps to set up the proxy:
 2. I configured my browser to use Burp Suite as a proxy.
    - I set the proxy settings to:
      - Proxy Type: HTTP
-     - IP: [Your Burp Suite IP]
-     - Port: [Your Burp Suite Port]
+     - IP: [127.0.0.1]
+     - Port: [8080]
 
 ![Proxy Setup](images/proxy_setup.png)
 
@@ -34,8 +34,9 @@ I did the following steps to set up the proxy:
 
 ## Fast & Hybrid Spidering
 
-1. I navigated to the "Target" tab in Burp Suite.
-2. I used the "Spider" tool for fast and hybrid spidering (crawling) of the web application.
+1. Spidering wasn't available on my version of Burpsuite so I made use of the OWASP ZAP tool.
+2. Using this tool, I was able to perform a vulnerability scan and also carry out Spidering on my test web application.
+3. I used the "Spider" tool for fast and hybrid spidering (crawling) of the web application.
 
 ![Spidering](images/spidering.png)
 
