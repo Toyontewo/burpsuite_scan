@@ -1,6 +1,6 @@
 # Burp Suite Project Documentation
 
-This README.md file documents the steps taken during the Burp Suite project. The project involved setting up a proxy, launching a target, performing spidering, vulnerability scanning, brute force attacks, and exploiting a known SQL injection vulnerability using Burp Suite.
+This README.md file documents the steps I took during my Burp Suite project. The project involved setting up a proxy, launching a target, performing spidering, vulnerability scanning, brute force attacks, and exploiting a known SQL injection vulnerability using Burp Suite.
 
 ## Table of Contents
 
