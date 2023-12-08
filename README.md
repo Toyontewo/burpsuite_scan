@@ -50,17 +50,21 @@ I did the following steps to set up the proxy:
 ![Vulnerability Scan](images/vulnerability_scan.png)
 
 ## Brute Force Attack
-Using the "Reaper tool" in burpsuite
-1. I navigated to the "Engagement Tools" in Burp Suite.
+Using the "Intruder tool" in burpsuite
+1. After generating a request from the login page of the web application, I left-clicked the request and hit "Send to Intruder".
 2. I used the "Intruder" tool for brute force attacks.
-3. I configured payload sets and ran the attack.
-
+3. Under "Attack type" I selected "Cluster bomb" and started the attack
+4. I configured payload sets (2) which were the lists of usernames and passwords to be tested and ran the attack.
+     ![Brute Force](images/payload_set.png)
+5. After the scan was complete, I figured out that the correct inputs out of the list had the lowest status code and highest length.
 ![Brute Force](images/brute_force.png)
 
 ## Exploit SQL Injection
 
 1. I identified a target page vulnerable to SQL injection.
-2. I used the "SQLi" tool in Burp Suite to exploit the SQL injection vulnerability.
+2. I knowingly inputted the wrong username and password and sent the request to Burpsuite, after this is sent the same request to "Repeater"
+3. I then injected malicious sql statements in both username and password parameters. (uname=' or 1='1&pass=' or 1='1)
+4. After sending this new request, a connection was established.
 
 ![SQL Injection](images/sql_injection.png)
 
