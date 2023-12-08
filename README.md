@@ -36,7 +36,7 @@ I did the following steps to set up the proxy:
 
 1. Spidering wasn't available on my version of Burpsuite so I made use of the OWASP ZAP tool.
 2. Using this tool, I was able to perform a vulnerability scan and also carry out Spidering on my test web application.
-3. I used the "Spider" tool for fast and hybrid spidering (crawling) of the web application.
+3. I used the "Spider" tool for fast and hybrid spidering(crawling) of the web application.
 
 ![Spidering](images/spidering.png)
 
@@ -44,11 +44,13 @@ I did the following steps to set up the proxy:
 
 1. I used the "Scanner" tool in Burp Suite for vulnerability scanning.
 2. I analyzed the scan results and identified potential vulnerabilities.
+3. After analyzing the vulnerabilities, I identified a high-risk vulnerability which was SQL Injection amongst others.
+![sqld details](images/sql_details.png)
 
 ![Vulnerability Scan](images/vulnerability_scan.png)
 
 ## Brute Force Attack
-
+Using the "Reaper tool" in burpsuite
 1. I navigated to the "Engagement Tools" in Burp Suite.
 2. I used the "Intruder" tool for brute force attacks.
 3. I configured payload sets and ran the attack.
